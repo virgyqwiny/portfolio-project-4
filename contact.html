@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Contact Form</title>
+<head>
+	<h3>
+<center>Virginia Mbugua DIT-01-8554/2021 30/03/2022</center>
+</h3>
+</head>
+<body>
+	<!--idv class identifies the elements in it-->
+	<div class="container">
+	<form action="test.php" method="POST">
+		<!--the POST method shows that this data is posted to the selected php script and the db-->
+		<!--the labels do identify each text box-->
+
+		<br>
+		<div class="img">
+		<img src="blogo.png" height="250" width="250">
+	</div>
+		<br>
+		<label>Email*</label>
+		<br>
+		<input type="text" name="email" placeholder="Your email" value="">
+		<br>
+		<br>
+		<label>Name*</label>
+		<br>
+		<input type="text" name="uname" placeholder="Your name" value="">
+		<br>
+		<br>
+		<label>Tel*</label>
+		<input type="text" name="code" placeholder="+254" value="">
+		<input type="text" name="code" placeholder="07********" value="">
+		<br>
+		<br>
+		<p>Preferred means:</p>
+		<br>
+		<input type="radio" name="pref">Tel
+		<input type="radio" name="pref">Email
+		<br>
+
+		<p>Products*</p>
+		<br>
+		<select>
+			<option>Web Application</option>
+		</select>
+		<br>
+		<p>Message*</p>
+		<textarea>
+			
+		</textarea>
+		<br>
+		<input type="checkbox" name="checkbx" value="">Subscribe to news and offers
+		<br>
+		<br>
+		<button>Send Message</button>
+		<br>
+		<br>
+	</form>
+</div>
+<!--This style changes the outlook of the form and the body-->
+	<style>
+		body{
+			background-color: lightgreen ;
+			border-style: ridge;
+			border-width: thin;
+			border-radius: 9px;
+			border-width: 3px;
+			box-sizing: border-box;
+		}
+		.container{
+			background-color: inherit;
+			max-width: 400px;
+			padding: 10px;
+			display: flex;
+			margin-left: 70px;
+			margin-right: 70px;
+
+		}
+		button{
+			background-color: green;
+			border-radius: 8px;
+		}
+		.img{
+			
+			margin-left: 10px;
+			height: auto;
+			vertical-align: middle;
+			margin-left: 900px;
+		}
+
+	</style>
+
+
+</body>
+</html>
